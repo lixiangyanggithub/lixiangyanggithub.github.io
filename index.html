@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>编程小李</title>
+    <link rel="stylesheet" href="./pages/index/css/index.css">
+    <link rel="shortcut icon" href="./assets/img/profilephoto.jpg" type="image/x-icon">
+    <script src="./assets/js/echarts.min.js"></script>
+
+</head>
+
+<body>
+    <div id="bigbox">
+
+        <div id="leftbox">
+            <!-- 头像 -->
+            <div class="marginauto">
+                <img id="img1" src="./assets/img/profilephoto.jpg" alt="">
+            </div>
+            <h1>李向阳</h1>
+            <h3>前端工程师</h3>
+            <!-- 联系 -->
+            <div id="contact">
+                <a href="https://github.com/lixiangyanggithub"><img src="./assets/img/github.png"></img></a>
+                <a href="https://gitee.com/lixiangyanggitee"><img src="./assets/img/gitee.png"></img></a>
+                <a href="mailto:2327296384@qq.com"><img src="./assets/img/email.png"></img></a>
+                <a href="https://www.youtube.com/@trees_wood"> <img src="./assets/img/YouTube.png"></img></a>
+            </div>
+        </div>
+        <!-- 右边 -->
+        <div id="rightbox">
+            <h3 style="display: inline-block;">基本信息</h3>
+            <!-- 导航栏 -->
+            <div id="navbox">
+                <a href="./pages/project_experience/project_experience.html">项目经验</a>
+                <a href="./pages/award/award.html">获奖或证书</a>
+            </div>
+            <!-- 基本信息 -->
+            <div id="baseinfo">
+                <div id="baseleft">
+                    <p>性别</p>
+                    <p>出生日期</p>
+                    <p>手机</p>
+                    <p>E-mail</p>
+                    <p>英语</p>
+                    <p>学历</p>
+                </div>
+                <div id="baseright">
+                    <p>男</p>
+                    <p>2001-11-05</p>
+                    <p>17558080342</p>
+                    <p>2327296384@qq.com</p>
+                    <p>CET-4</p>
+                    <p>本科 安徽信息工程学院 软件工程专业</p>
+                </div>
+            </div>
+            <!-- 水平线 -->
+            <div class="hrbox">
+                <hr>
+            </div>
+
+            <!-- 技术栈 -->
+            <h3>技术栈</h3>
+            <div id="techbox">
+                <!-- 前端技术 -->
+                <div style="height:100%;width: 33%;">
+                    <h2 style="text-align: center;">前端</h2>
+                    <div id="chart1" style="height:100%;width: 100%;"></div>
+                </div>
+
+                <!-- 后端技术 -->
+                <div style="height:100%;width: 33%;">
+                    <h2 style="text-align: center;">后端</h2>
+                    <div id="chart2" style="height:100%;width: 100%;"></div>
+                </div>
+
+                <!-- 其他 -->
+                <div style="height:100%;width: 33%;">
+                    <h2 style="text-align: center;">数据库及其他</h2>
+                    <div id="chart3" style="height:100%;width: 100%;"></div>
+                </div>
+            </div>
+            <!-- 水平线 -->
+            <div class="hrbox">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./pages/index/js/index.js"></script>
+</body>
+
+</html>

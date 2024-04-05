@@ -1,0 +1,83 @@
+/* @font-face {
+    font-family: 'yanshiqiuhongkai';
+    src: url('../../../assets/ttf/千图纤墨体.ttf');
+} */
+#bigbox {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../../assets/img/bc_snow.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    /* font-family: 'yanshiqiuhongkai'; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.combox {
+    width: 49%;
+    height: 48%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.combox2 {
+    width: 30%;
+    height: 96%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2%;
+}
+
+video {
+    width: 98%;
+}
+
+.combox3 {
+    width: 68%;
+    height: 96%;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.combox3 a {
+    text-decoration: none;
+    color: green;
+}
+
+.combox3 a:hover {
+    color: #0099ff;
+}
+
+.combox6 {
+    width: 98%;
+    height: 85%;
+}
+
+.combox4 {
+    width: 95%;
+    height: 22%;
+    background-color: rgba(0, 153, 255, 0.3);
+    margin-left: 5%;
+    border-radius: 2%;
+}
+
+.combox5 {
+    width: 98%;
+    height: 15%;
+}
